@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <script>
+        const cambiar = () => {
+            document.getElementById("msg").innerHTML = "Mensaje enviado!";
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+        h1 {
+            font-family: Cairo;
+            margin-top: 60px;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .submit1 {
+            font-family: Cairo;
+            font-weight: 900;
+            background-color: #bbb;
+            padding: .5em;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            border: none;
+            width: 100%;
+            color: black;
+            margin-top: 60px;
+        }
+        
+        .submit1:hover {
+            border: none;
+            background: #83cd29;
+            box-shadow: 0px 0px 1px #777;
+        }
+        
+        .msg {
+            font-family: Cairo;
+            color: green;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="http://xurxodev.com/content/images/2015/12/Node-js-Logo.png" style="width:500px;height:auto;">
+    <div>
+        <h1>Envío de correos con Node JS</h1>
+        <form action="http://localhost:3000/send-email" method="post">
+            <button type="submit" class="submit1" onclick="cambiar()">Enviar Correo</button>
+        </form>
+    </div>
+    <h1 id="msg" class="msg"></h1>
+</body>
+
+</html>

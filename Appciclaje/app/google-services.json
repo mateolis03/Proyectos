@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "728676175506",
+    "project_id": "appciclaje",
+    "storage_bucket": "appciclaje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728676175506:android:95225a55a3081613b2204b",
+        "android_client_info": {
+          "package_name": "unipiloto.edu.co.appciclaje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728676175506-g798i51pdt4camvr328d2pq29diir7qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unipiloto.edu.co.appciclaje",
+            "certificate_hash": "1190c75865fb97b866ff734fdea72da57ee8998b"
+          }
+        },
+        {
+          "client_id": "728676175506-4aldh19vnr74m0tknpq49icf1pmhnse4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaLYZvMoOdJbdcwzIY5YOXTzeIH5nMiF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728676175506-4aldh19vnr74m0tknpq49icf1pmhnse4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728676175506:android:d52ef50816fb0996b2204b",
+        "android_client_info": {
+          "package_name": "unipiloto.edu.co.appiclaje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728676175506-4aldh19vnr74m0tknpq49icf1pmhnse4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaLYZvMoOdJbdcwzIY5YOXTzeIH5nMiF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728676175506-4aldh19vnr74m0tknpq49icf1pmhnse4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

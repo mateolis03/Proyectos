@@ -1,0 +1,23 @@
+:root {
+  --app-font: "Open Sans", sans-serif;
+  --neutral-color: white;
+  /*url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80");*/
+  background: center/100%
+    url("https://img.freepik.com/vector-gratis/hermoso-fondo-acuarela-amarillo-elegante_1055-9879.jpg?size=626&ext=jpg&ga=GA1.2.2103811857.1630281600https://image.freepik.com/vector-gratis/fondo-textura-acuarela-amarillo-suave_1055-10236.jpg");
+}
+.App {
+  font-family: var(--app-font);
+  text-align: center;
+  background: var(--background-image);
+  user-select: none;
+}
+
+.game li {
+  display: inline-block;
+  font-size: 50px;
+  margin: 20px;
+}
+.game button {
+  font-size: 30px;
+  margin: 20px;
+}

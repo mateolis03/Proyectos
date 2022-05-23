@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap');
+.my-cart-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 3%;
+}
+
+.total-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cont-checkout-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 3%;
+}
+
+.cont-checkout-info button {
+    width: 20%;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(27, 27, 96);
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.cont-checkout-info button:hover {
+    background-color: rgb(79, 79, 132);
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.checkout-container label {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.checkout-container input {
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 3%;
+    box-shadow: 0px 0px 10px rgba(70, 70, 70, 0.374);
+}
+
+.button {
+    color: white;
+    background-color: rgb(27, 27, 96);
+}
+
+
+.login-container {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    font-weight: 57000;
+    align-content:center;
+    height: 500px;
+    background-color: rgb(66, 148, 148);
+    width: 25%;
+    margin: 30px auto;
+    margin-bottom: 20%;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    align-items: center;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-container label {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.login-container input {
+    align-items: center;
+    margin: 2%;
+    font-weight: bold;
+    font-family:  'Cairo', sans-serif;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 3%;
+    box-shadow: 0px 0px 10px rgba(70, 70, 70, 0.374);
+}
+
+.login-container button {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+    background-color: #bbb;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    width: 60%;
+    color: black;
+    margin-top: 40px;
+}
+.login-container button:hover {
+    border: none;
+    background: #9087ee;
+    box-shadow: 0px 0px 1px #777;
+}
+
+.a{
+    align-items:flex-end;
+}

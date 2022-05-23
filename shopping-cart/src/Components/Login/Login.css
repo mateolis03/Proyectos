@@ -1,0 +1,27 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
+
+.login-container label {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.login-container input {
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 3%;
+    box-shadow: 0px 0px 10px rgba(70, 70, 70, 0.374);
+}
+
+.login-container button {
+    color: white;
+    background-color: rgb(27, 27, 96);
+}

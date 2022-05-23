@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <h1 style="font-family: Cairo;">Ejercicio DOM y JSON</h1>
+    <p style="font-family: Cairo;"></p>
+    <h3 id="cambio" style="font-family:Cairo">Bienvenidos</h3>
+    <input style="font-family: cairo;" id="button1" type="button" value="Cambia el DOM" onclick="changeText();" />
+    <button style="font-family:Cairo" id="button2">Leer Json</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        document.querySelector('#button2').addEventListener('click', traerDatos);
+
+        function traerDatos() {
+            $.ajax({
+                type: "GET",
+                url: "songs.json",
+                success: function(response) {
+                    $("div").append("Canción: " + response.titulo + "<br>Cantante: " + response.artista + "<br>País: " + response.pais + "<brÁlbum: " +
+                        +response.album + "><br> Año: " + response.year + "")
+                }
+
+            })
+        }
+    </script>
+    <script type="text/javascript">
+        function changeText() {
+            document.getElementById("cambio").innerHTML = "Texto cambiado desde el DOM!";
+        }
+    </script>
+
+</head>
+
+<body>
+    <p></p>
+    <div style="font-family:cairo">
+
+    </div>
+</body>
+
+</html>

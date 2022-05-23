@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="unipiloto.edu.co.appiclaje">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/diome"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Appiclaje">
+        <activity
+            android:name=".SolicitudesMapa"
+            android:exported="false" />
+        <activity
+            android:name=".Mapa"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleFinalizar"
+            android:exported="false" />
+        <activity
+            android:name=".FinalizarSolicitud"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleAceptar"
+            android:exported="false" />
+        <activity
+            android:name=".AceptarSolicitud"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultaEstado"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultaTipo"
+            android:exported="false" />
+        <activity
+            android:name=".TipoConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleSolicitud"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarId"
+            android:exported="false" />
+        <activity
+            android:name=".PublicarSolicitud"
+            android:exported="false" />
+        <activity
+            android:name=".Home_personaNatural"
+            android:exported="false" />
+        <activity
+            android:name=".OlvidarContrasena"
+            android:exported="false" />
+        <activity
+            android:name=".Home_reciclador"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".IngresarAplicacion"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDaLYZvMoOdJbdcwzIY5YOXTzeIH5nMiF0" />
+    </application>
+
+</manifest>
